@@ -5,9 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Головна</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  
+  <section class="first-screen">
+    <header class="page-header">
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a class="main-nav__link main-nav__link--active">Головна</a></li>
+          <li class="main-nav__item"><a href="./showplaces.html" class="main-nav__link">Пам'ятки</a></li>
+          <li class="main-nav__item"><a href="./history.html" class="main-nav__link">Історія</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="main">
+      <h1 class="main-title">Путівник по прекрасному місту Київ</h1>
+    </section>
+  </section>
+
+  <main class="page-content">
+    <section class="summary">
+      <h2 class="summary__title">Що це за місто таке?</h2>
+      <div class="row">
+        <p class="summary__content">Київ - столиця України, одне з найбільших і найстаріших міст Європи. Розташований у течії Дніпра, у північній Наддніпрянщині. Політичний, соціально-економічний, транспортний та освітньо-науковий центр країни</p>
+        <div class="summary__image"><img src="./img/index/summary-image1.jpg" alt="Батьківщина-Мати"></div>
+      </div>
+      <div class="row">
+        <p class="summary__content">Один із найстаріших історичних центрів Східної Європи та християнства — Софійський собор — та Києво-Печерська лавра внесено до списку Світової спадщини ЮНЕСКО.</p>
+        <div class="summary__image"><img src="./img/index/summary-image2.jpg" alt="Софіївський собор"></div>
+      </div>
+    </section>
+
+    <section class="short-history">
+      <h2 class="short-history__title">Коротка історія міста</h2>
+      <p class="short-history__content">Київ був заснований наприкінці V — початку VI століття. Був столицею полян, Русі, Української Народної Республіки, Української Держави та Української Радянської Соціалістичної Республіки. Також був адміністративним центром однойменного князівства, литовсько-польського воєводства, козацького полку, російської губернії, німецької генеральної округи.
+        </p>
+      <p class="short-history__content">За легендою «Повісті врем'янних літ» Київ було засновано легендарним полянським князем Києм разом із братами Щеком і Хоривом і сестрою Либідь. Літопис не має дати заснування міста. Археологічні та писемні джерела свідчать, що Київ розвинувся на основі язичницького поселення кінця 5—початку 6 століття.</p>
+      <span class="short-history__more">
+        Детальніше про історію міста можна дізнатися
+        <a href="./history.html" class="short-history__more__link">тут</a>
+      </span>
+    </section>
+
+    <section class="short-showplaces">
+      <h2 class="showplaces__title">Визначні місця</h2>
+      <span class="showplaces__promo">У Києві дуже багато пам’яток архітектури, скульптури, науки та спорту. Ось деякі з них:</span>
+      <ul class="showplaces__list">
+        <li class="showplaces__item">
+          <h3 class="showplaces__item-title">Хрещатик - головна вулиця міста</h3>
+          <div class="showplaces__image"><img src="./img/index/hreschatyk.jpg" alt="Хрещатик"></div>
+        </li>
+        <li class="showplaces__item">
+          <h3 class="showplaces__item-title">Андріївський узвіз - найкрасивіше місце Києва</h3>
+          <div class="showplaces__image"><img src="./img/index/uzviz.jpg" alt="Андріївський узвіз"></div>
+        </li>
+        <li class="showplaces__item">
+          <h3 class="showplaces__item-title">Києво-печерська Лавра - один із найстаріших монастирів міста</h3>
+          <div class="showplaces__image"><img src="./img/index/lavra.jpg" alt="Києво-печерська Лавра"></div>
+        </li>
+      </ul>
+      <span class="short-showplaces__more">
+        Дізнатися більше про визначні місця Києва ви можете
+        <a href="./showplaces.html" class="short-showplaces__link">тут</a>
+      </span>
+    </section>
+  </main>
 </body>
 </html>
